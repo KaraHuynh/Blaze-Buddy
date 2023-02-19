@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+}
+
+.navbar {
+    margin-top: -3%;
+}
+
+
+.list-items {
+    list-style-type: none;
+    display: flex;
+}
+
+
+.item {
+    margin-right: 12%;
+    align-self: center;
+}
+
+.link{
+    color: #60656F;
+    text-decoration: none;
+}
+
+
