@@ -4,9 +4,9 @@ import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import './style.css';
 
-export default function FireCard ({ title, date, time, location, description }){
+export default function FireCard ({ key, title, date, time, location, description }){
     return (
-        <Card className="card">
+        <Card className="card" key={key}>
             <CardHeader
             
                 title={title}

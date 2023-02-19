@@ -1,2 +1,2 @@
-FLASK_APP=base.py
+export FLASK_APP="app.py"
 FLASK_ENV=development
