@@ -6,17 +6,13 @@ import NASACarousel from "../../components/NASACarousel/NASACarousel";
 import './style.css';
 
 export default function FireTracker() {
-
+    var maryamData = require('../../Dataset_NASA.json');
     return (
         <>
         <section className="fire-tracker" id="fire-tracker">
             <div className="container">
                 <div className="fire-info">
                     <div className="top-functions">
-                        {/* <div className="ring-container">
-                            <div className="ringring"></div>
-                            <div className="circle"></div>
-                        </div> */}
                         <div class="animation animation3">
                             <div class="dot"></div>
                         </div>
@@ -31,7 +27,7 @@ export default function FireTracker() {
                     </div>
                     <div className="fire-data">
                         <h2 className="number">
-                            5
+                            {Object.keys(maryamData.data_NASA).length}
                         </h2>
                         <h2 className="active-now">fires <br></br>in North America</h2>
                     </div>

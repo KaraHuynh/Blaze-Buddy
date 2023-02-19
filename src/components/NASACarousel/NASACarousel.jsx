@@ -6,7 +6,7 @@ export default function NASACarousel() {
     var maryamData = require('../../Dataset_NASA.json');
     const screenBreakpoints = [
         {width: 576, itemsToShow: 1, itemsToScroll: 1},
-        {width: 768, itemsToShow: 3, itemsToScroll: 2},
+        {width: 768, itemsToShow: 2, itemsToScroll: 2},
         {width: 1440, itemsToShow: 3, itemsToScroll: 3}
     ];
     const carouselRef = useRef(null);
