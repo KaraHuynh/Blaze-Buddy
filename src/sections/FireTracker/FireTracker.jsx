@@ -1,6 +1,5 @@
 import React from "react";
 import Refresh from '../../images/rotate.png';
-import Wave from '../../images/wave.svg';
 import NewsCarousel from "../../components/NewsCarousel/NewsCarousel";
 import NASACarousel from "../../components/NASACarousel/NASACarousel";
 import './style.css';

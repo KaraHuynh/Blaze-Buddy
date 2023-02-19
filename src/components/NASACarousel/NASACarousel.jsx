@@ -1,12 +1,13 @@
 import {React, useRef} from "react";
 import FireCard from "../FireCard/FireCard";
 import Carousel from 'react-elastic-carousel';
+import './style.css';
 
 export default function NASACarousel() {
     var maryamData = require('../../Dataset_NASA.json');
     const screenBreakpoints = [
         {width: 576, itemsToShow: 1, itemsToScroll: 1},
-        {width: 768, itemsToShow: 2, itemsToScroll: 2},
+        {width: 768, itemsToShow: 3, itemsToScroll: 3},
         {width: 1440, itemsToShow: 3, itemsToScroll: 3}
     ];
     const carouselRef = useRef(null);
@@ -25,7 +26,7 @@ export default function NASACarousel() {
 
     return (
         <section className="carousel">
-            <h1>NASA Real-time Fires</h1>
+            <h1 className="carousel-header">NASA Real-time Fires</h1>
             <div className="carousel-container">
                 <Carousel
                     className="c"
@@ -44,6 +45,7 @@ export default function NASACarousel() {
                             <FireCard
                                 key={index}
                                 description={data["summary"]}
+                                className="box"
                             />
                         )})
                     }
@@ -51,7 +53,5 @@ export default function NASACarousel() {
             </div>
         </section>
         
-// title, date, time, location, description
-
     );
 }

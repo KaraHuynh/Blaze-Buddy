@@ -4,7 +4,22 @@
 }
 
 .card {
-    width: 50%;
-    height: 50vh;
+    width: 70%;
+    height: 70vh;
     border-radius: 25px;
+    padding: 20px;
+}
+
+.css-1qvr50w-MuiTypography-root {
+    font-weight: 700 !important;
+    margin-bottom: 10px;
+}
+.css-nrdprl-MuiTypography-root {
+    color: #F5F5F4 !important;
+
+}
+
+.carousel-container {
+    width: 95%;
+    margin: auto;
 }

@@ -8,11 +8,10 @@ export default function FireCard ({ key, title, date, time, location, descriptio
     return (
         <Card className="card" key={key}>
             <CardHeader
-            
                 title={title}
                 subheader={location}
             />
-            <CardContent>
+            <CardContent className="description">
                 <p>
                       {description}
                 </p>

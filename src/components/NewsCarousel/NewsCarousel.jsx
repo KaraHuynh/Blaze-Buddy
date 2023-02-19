@@ -6,7 +6,7 @@ export default function NewsCarousel() {
     var nasaData = require('../../Dataset.json');
     const screenBreakpoints = [
         {width: 576, itemsToShow: 1, itemsToScroll: 1},
-        {width: 768, itemsToShow: 2, itemsToScroll: 2},
+        {width: 768, itemsToShow: 3, itemsToScroll: 3},
         {width: 1440, itemsToShow: 3, itemsToScroll: 3}
     ];
     const carouselRef = useRef(null);
@@ -25,12 +25,11 @@ export default function NewsCarousel() {
 
     return (
         <section className="carousel">
-            <h1>News Covered Fires</h1>
+            <h1 className="carousel-header">News Covered Fires</h1>
             <div className="carousel-container">
                 <Carousel
                     className="c"
                     itemsToShow={3}
-                    enableAutoPlay
                     autoPlaySpeed={3000}
                     itemsToScroll={3}
                     breakPoints={screenBreakpoints}
