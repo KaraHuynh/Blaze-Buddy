@@ -27,7 +27,7 @@ def coordinate_converter(lat,lon):
 
 def convert_time(time):
     return pd.to_datetime(time, format='%H%M').strftime('%I:%M %p')
-
+    
 apikey = "e2369a7744fad538192ca160bc6550b5"
 
 url = 'https://firms.modaps.eosdis.nasa.gov/api/country/csv/e2369a7744fad538192ca160bc6550b5/VIIRS_NOAA20_NRT/CAN/1/2023-02-17'
@@ -40,12 +40,15 @@ def extra_data(url):
         out.write(raw_data)
 
     data = pd.read_csv (r'./NASA_data.csv')
-
-    for row in range(len(data)):
-        if data['confidence'][row] != "l":
+    
+    for row in range(len(data)):      
+        if data['confidence'][row] != "l":  
             temp = [data['country_id'][row], coordinate_converter(data['latitude'][row], data['longitude'][row]), data['acq_date'][row], convert_time(data['acq_time'][row],)]
             FINAL_DATA.append(temp)
 
 
+
 extra_data(url)
-# print(FINAL_DATA)
+print(FINAL_DATA)
+
+
