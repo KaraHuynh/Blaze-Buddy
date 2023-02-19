@@ -2,6 +2,7 @@ import './App.css';
 import FireTracker from './sections/FireTracker/FireTracker';
 import FireProtocols from './sections/FireProtocols/FireProtocols';
 import FireFacts from './sections/FireFacts/FireFacts';
+import Resources from './sections/Resources/Resources';
 import { useState } from 'react'
 import axios from "axios";
 
@@ -37,6 +38,7 @@ function App() {
         } */}
         <FireProtocols />
         <FireFacts />
+        <Resources />
     </div>
   );
 }
