@@ -81,11 +81,11 @@ def extra_data(url):
                     FINAL_DATA[-1][5] = temp[5]
                 frpRates[-1]= temp[5]
     frpDataCleaned = convertFRP(frpRates)
-    print("--------------------------")
-    print(len(FINAL_DATA))
-    print(CAN_DATA_LEN)
-    print(len(frpDataCleaned))
-    print("-------------------------------")
+    # print("--------------------------")
+    # print(len(FINAL_DATA))
+    # print(CAN_DATA_LEN)
+    # print(len(frpDataCleaned))
+    # print("-------------------------------")
     for index in range(CAN_DATA_LEN, len(FINAL_DATA)):
         print(FINAL_DATA[index])
         print(index)
