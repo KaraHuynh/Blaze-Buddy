@@ -47,7 +47,8 @@ def extra_data(url):
             FINAL_DATA.append(temp)
 
 
+
 extra_data(url)
-# print(FINAL_DATA)
+print(FINAL_DATA)
 
 

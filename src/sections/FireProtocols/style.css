@@ -1,0 +1,40 @@
+h1{
+    text-align: center; 
+}
+
+.fire-protocols {
+    background-color: #EF8354;
+    color: #F5F5F4;
+    margin-top: -1%;
+    padding: 20px;
+}
+
+.two-divs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.wildfire-protocols, .buildingfire-protocols {
+    background-color: #60656F;
+    padding: 50px;
+    border-radius: 25px;
+    margin: 5%;
+}
+
+.protocols {
+    text-align: left;
+}
+
+.header {
+    margin: 20px;
+}
+
+.inner-div {
+    margin: 20px 20px;
+    width: 90%;
+}
+
+.top-wave {
+    margin-top: 10%;
+}
