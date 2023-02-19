@@ -1,3 +1,7 @@
+h1{
+    text-align: center; 
+}
+
 .fire-protocols {
     background-color: #EF8354;
     color: #F5F5F4;
@@ -29,4 +33,8 @@
 .inner-div {
     margin: 20px 20px;
     width: 90%;
+}
+
+.top-wave {
+    margin-top: 10%;
 }

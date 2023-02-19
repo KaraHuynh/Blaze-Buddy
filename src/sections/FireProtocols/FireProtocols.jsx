@@ -4,6 +4,8 @@ import Wave from '../../images/wave.svg';
 
 export default function FireProtocols (){
     return(
+        <>
+        <img className="top-wave" src={Wave} alt="" />
         <section className="fire-protocols" id="fire-protocols">
             <div className="container">
                 <div className="inner-div">
@@ -88,7 +90,7 @@ export default function FireProtocols (){
             </div>
         </section>
 
-
+        </>
 
 
     );

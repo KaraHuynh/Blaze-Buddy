@@ -36,7 +36,7 @@ export default function FireFacts (){
                                 </figcaption>
                             </figure>
                             <div className="more-facts">
-                                <h2 className="fact-header">More Facts</h2>
+                                <h2>More Facts</h2>
                                 <ul>
                                     <li>
                                         In Canada, 1 out of 100 preventable residential fires are fatal.
@@ -74,7 +74,7 @@ export default function FireFacts (){
                                 </figcaption>
                             </figure>
                             <div className="more-facts">
-                                <h2 className="fact-header">More Facts</h2>
+                                <h2 >More Facts</h2>
                                 <ul>
                                     <li>
                                         In the US, there were approximately 3,790 fire-related deaths, 2,615 deaths, 11,825 injuries, in 2020.

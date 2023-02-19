@@ -36,7 +36,6 @@ export default function FireTracker() {
                 </div>
             </div>
         </section>
-        <img className="top-wave" src={Wave} alt="" />
         </>
     );
 }
