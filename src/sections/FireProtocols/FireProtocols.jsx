@@ -86,7 +86,6 @@ export default function FireProtocols (){
                     </div>
                 </div>
             </div>
-            <img className="bottom-wave" src={Wave} alt="" />
         </section>
 
 
