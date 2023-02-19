@@ -1,0 +1,68 @@
+.fire-info {
+    background-color: #60656F;
+    width: 50%;
+    margin: auto;
+    height: 50vh;
+    color: #F5F5F4;
+    border-radius: 25px;
+}
+
+.container {
+    width: 100%;
+    margin-bottom:30px;
+}
+.top-functions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.active-now {
+    font-weight: 300;
+}
+
+.number {
+    font-size: 3em;
+    margin-bottom: -2%;
+}
+
+@keyframes pulsate {
+    0% {transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+.image-1 {
+    width: 30%;
+}
+
+.fire-data {
+    margin-top: -5%;
+}
+
+h2{
+    text-align: center; 
+}
+
+.animation {
+    /* margin: 50px; */
+    text-align:center;
+}
+.dot {
+    margin:20px auto;
+    height: 10px;
+    position:relative;
+    width: 10px;
+    border-radius: 100%;
+    border: 3px solid #62bd19;
+    background-color:#62bd19;
+}
+
+
+.animation, .active-fires, .refresh {
+    margin: 20px;
+    align-self: center;
+}
+
+.top-wave {
+    margin-top: 10%;
+}

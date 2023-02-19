@@ -70,33 +70,13 @@ def extra_data(url):
         if counter > 15:
             break  
         if data['confidence'][row] != "l":  
-            temp = [data['country_id'][row], str(coordinate_converter(data['latitude'][row], data['longitude'][row])).replace('(','').replace(')','') , data['acq_date'][row], convert_time(data['acq_time'][row]), convert_dayNight(data['daynight'][row]), data['frp'][row]]
-            
-            if temp[:-1] not in (el[:-1] for el in FINAL_DATA):
-                FINAL_DATA.append(temp)
-                frpRates.append(data['frp'][row])
-                counter+=1
-            else:
-                if temp[5] > FINAL_DATA[-1][5]:
-                    FINAL_DATA[-1][5] = temp[5]
-                frpRates[-1]= temp[5]
-    frpDataCleaned = convertFRP(frpRates)
-    # print("--------------------------")
-    # print(len(FINAL_DATA))
-    # print(CAN_DATA_LEN)
-    # print(len(frpDataCleaned))
-    # print("-------------------------------")
-    for index in range(CAN_DATA_LEN, len(FINAL_DATA)):
-        print(FINAL_DATA[index])
-        print(index)
-        FINAL_DATA[index][5] = frpDataCleaned[index-CAN_DATA_LEN]
-    
-# do this again with the US statistics
-extra_data(url_CAN)
-CAN_DATA_LEN = len(FINAL_DATA)
-extra_data(url_USA)
-# print("HERE USA DONE")
-# print(FINAL_DATA)
+            temp = [data['country_id'][row], coordinate_converter(data['latitude'][row], data['longitude'][row]), data['acq_date'][row], convert_time(data['acq_time'][row],)]
+            FINAL_DATA.append(temp)
+
+
+
+extra_data(url)
+print(FINAL_DATA)
 
 f = open('Final_NasaFIRM_clean.csv', 'w')
 
