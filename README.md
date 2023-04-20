@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 🔥 Blaze Buddy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 😔 Are you worried about the ongoing fires near you? 
+### 📖 Do you want to learn more about fire protocols and safety measures?
 
-## Available Scripts
+### Blaze Buddy utilizes NLP, and web scraping to find and deliver the news of fires in one place. You get to learn more about fire safety (what to do during building, or wildfires), fire statistics and news covered/uncover fire incidents. *Stay alert and fire won't hurt!*
 
-In the project directory, you can run:
+## 
 
-### `npm start`
+![image](https://cdn.discordapp.com/attachments/878469526117810217/1098430555244220538/gallery.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+** **
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://cdn.discordapp.com/attachments/878469526117810217/1098430594830061669/gallery.png)
 
-### `npm test`
+** **
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://cdn.discordapp.com/attachments/878469526117810217/1098430619823906846/gallery.png)
 
-### `npm run build`
+** **
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://cdn.discordapp.com/attachments/878469526117810217/1098430653898424320/gallery.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+** **
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# ✨ You can check out our demo and submission for more information! ✨
 
-### `npm run eject`
+### Demo: https://www.youtube.com/watch?v=nWDHETTu9Dc
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Submission: https://devpost.com/software/fireresponse-chatbot
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Slides (from our presentation): https://docs.google.com/presentation/d/1tJiKL3TaFqdFvxvaw7DmRoHoofT-BHM1r6KgMglfoDs/edit#slide=id.p
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+** **
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 🍃 Authors 🍃
+| Maryam Elbeshbishy (Backend) | Sholeh Sepehri (Backend) | Kara Huynh (Frontend) 
+| :-------------------------: | :------------------: | :-------------------: 
+|   [linkedin](https://www.linkedin.com/in/melbeshb/)   | [linkedin](https://www.linkedin.com/in/sholehsepehri/) | [linkedin](https://www.linkedin.com/in/kara-huynh/) |  |
+| [github](https://github.com/maryam-elbeshbishy) | [github](https://github.com/SholehSepehri) | [github](https://github.com/KaraHuynh) | 
